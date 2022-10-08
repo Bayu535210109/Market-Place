@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -51,4 +51,22 @@ body{
     background-color:#2979ff;
     font-size: 18px;
     color: #fafafa;
+}
+
+.button {
+    background-color: #2979ff;
+    /*Green*/border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 79%;
+    margin-top: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
