@@ -2,9 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cookieSession = require("cookie-session");
 const bcrypt = require("bcrypt");
-
 const User = require("./models/User");
-
 const authenticateUser = require("./middlewares/authenticateUser");
 
 const app = express();
