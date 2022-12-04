@@ -9700,6 +9700,11 @@ a.text-dark:hover, a.text-dark:focus {
   animation: action 1s infinite alternate;
 }
 
+.add-cart{
+  right: 30px;
+  bottom: 30px;
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
