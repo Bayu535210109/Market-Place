@@ -74,3 +74,11 @@ body{
 .txt color {
     color:aqua
 }
+
+.btn-primary {
+    color: white;
+    background-color: #2fd3dc;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
